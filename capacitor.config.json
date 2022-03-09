@@ -1,0 +1,6 @@
+{
+  "appId": "com.inlab.app",
+  "appName": "inlab",
+  "webDir": "dist",
+  "bundledWebRuntime": false
+}

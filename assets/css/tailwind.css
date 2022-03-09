@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  overflow-x: hidden;
+  overscroll-behavior-y: contain;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+* {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.side-in {
+  animation: slideIn 0.3s ease-in-out forwards;
+}
+@keyframes slideIn {
+  0% {
+    transform: translateX(40px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+
+.pull-down-header {
+  background-color: transparent !important;
+}
+.pull-down-content {
+  color: inherit !important;
+}
+
+.btn-primary {
+  @apply text-sm bg-green-500 dark:bg-green-600 hover:bg-green-600 dark-hover:bg-green-500 text-white py-2 px-3 rounded;
+}
+
+.btn-blue {
+  @apply text-sm bg-blue-500 dark:bg-blue-600 hover:bg-blue-600 dark-hover:bg-blue-500 text-white py-2 px-3 rounded;
+}
+
+.btn-danger {
+  @apply text-sm bg-red-500 dark:bg-red-600 hover:bg-red-600 dark-hover:bg-red-500 text-white py-2 px-3 rounded;
+}

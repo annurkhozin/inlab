@@ -1,0 +1,25 @@
+export default async (context, locale) => {
+  return await Promise.resolve({
+    Home: "Home",
+    Market: "Market",
+    Portfolio: "Portfolio",
+    Discover: "Discover",
+    Account: "Account",
+    Settings: "Settings",
+    Current_Plan: "Current plan",
+    Active_until: "Active until",
+    Account_Setting: "Account Setting",
+    Appearance: "Appearance",
+    Light: "Light",
+    Dark: "Dark",
+    System: "System",
+    Language: "Language",
+    Referral_Program: "Referral Program",
+    Support: "Support",
+    FAQ: "FAQ",
+    LogOut: "Log Out",
+    info_scan: "You can scan the QRCode on Indodax or enter API and secret key",
+    api_key_required: "API key is required",
+    secret_key_required: "Secret key is required",
+  });
+};

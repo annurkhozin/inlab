@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">inlab</string>
+    <string name="title_activity_main">inlab</string>
+    <string name="package_name">com.inlab.app</string>
+    <string name="custom_url_scheme">com.inlab.app</string>
+</resources>
